@@ -35,6 +35,7 @@ button {
     background-color: black;
     color: white;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .color-palette {
@@ -58,31 +59,33 @@ button {
     border: 1px solid white;
 }
 
-/* You can customize the colors here */
 .color-box:nth-child(1) {
-    background-color: #a77782;
-} /* Pastel Pink */
+    background-color: #1a1a1a;
+} 
 .color-box:nth-child(2) {
     background-color: #793b44;
-} /* Pastel Rose */
+} 
 .color-box:nth-child(3) {
     background-color: #ffdead;
-} /* Pastel Peach */
+} 
 .color-box:nth-child(4) {
     background-color: #3a6b72;
-} /* Powder Blue */
+}
 .color-box:nth-child(5) {
     background-color: #add8e6;
-} /* Light Blue */
+} 
 .color-box:nth-child(6) {
     background-color: #98fb98;
-} /* Mint Green */
+} 
 .color-box:nth-child(7) {
     background-color: #ffc0cb;
-} /* Orchid Pink */
+} 
 .color-box:nth-child(8) {
     background-color: #ffecb3;
-} /* Light Yellow */
+} 
+.color-box:nth-child(9) {
+    background-color: #a77782;
+}
 
 #qrcode-container {
     margin-bottom: 2%;

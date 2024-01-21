@@ -24,21 +24,22 @@
             </form>
 
             <div class="color-palette">
-                <div class="color-box"></div>
-                <div class="color-box"></div>
-                <div class="color-box"></div>
-                <div class="color-box"></div>
-                <div class="color-box"></div>
-                <div class="color-box"></div>
-                <div class="color-box"></div>
-                <div class="color-box"></div>
+                <div class="color-box" onclick="getColor(this)"></div>
+                <div class="color-box" onclick="getColor(this)"></div>
+                <div class="color-box" onclick="getColor(this)"></div>
+                <div class="color-box" onclick="getColor(this)"></div>
+                <div class="color-box" onclick="getColor(this)"></div>
+                <div class="color-box" onclick="getColor(this)"></div>
+                <div class="color-box" onclick="getColor(this)"></div>
+                <div class="color-box" onclick="getColor(this)"></div>
+                <div class="color-box" onclick="getColor(this)"></div>
               </div>
 
             <div id="qrcode-container">
                 <div id="qrcode" class="qrcode"></div>
             </div>
 
-            <button>Download</button>
+            <button onclick="downloadQRCode()">Download</button>
         </div>
 
         <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
